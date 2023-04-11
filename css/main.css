@@ -1,0 +1,54 @@
+/* IMPORT GOOGLE FONT */
+/* @import url('https://fonts.googleapis.com/css2?family=Lalezar'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Noto Sans Arabic' , Tahoma ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a632ff;
+}
+.container{
+    width: 499px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.container .info h1{
+    font-family: 'Lalezar' , Tahoma;
+}
+.container form{
+    margin: 15px 0 25px;
+}
+.container form input,button {
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+.container form input{
+    border: 1px solid #999;
+}
+.container form button{
+    background: #a632ff;
+    color: white;
+
+}
+.container .qr-code{
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    padding:10px;
+}
+.hidden{
+    display: none;
+}
